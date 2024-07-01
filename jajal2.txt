@@ -1,0 +1,17 @@
+<?php 
+ini_set('default_charset', 'UTF-8');
+
+$method = $_SERVER['REQUEST_METHOD'];
+
+if($method == 'POST'){
+	$no = $_REQUEST['no'];
+    $text = $_REQUEST['text'];
+    
+	ob_start();
+	echo "No : ".$no."\r\n";
+	echo "Text : ".$text;
+	$htmlStr = ob_get_contents();    
+	file_put_contents("jajal2.txt", $htmlStr); 
+}
+
+?>

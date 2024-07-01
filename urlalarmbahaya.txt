@@ -1,0 +1,1 @@
+http://soc.my.id/wgweb/api/sendambiljimpitan.php?token=1562

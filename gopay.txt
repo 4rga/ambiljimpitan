@@ -1,0 +1,5 @@
+Mode : hapus
+Tanggal : 21/12/2020
+Blok : N12
+Nominal : 1000
+petugas : 
